@@ -1,0 +1,60 @@
+//Part 2. Array handling
+//Please close certain parts of code with // when not using. Else they interfere withe each other and i do not know how to fix it
+
+import java.util.Scanner;
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        ///*       //Part 2.1 Input Array Method
+        int size;
+        Scanner nm = new Scanner(System.in);
+        System.out.print("Input the size of the array: ");
+        size = nm.nextInt();
+        int[] array = new int[10];
+        System.out.println("Input the values: ");
+        for (int i = 0; i < size; i++) {
+            array[i] = nm.nextInt();
+        }
+        System.out.println("The array is: ");
+        for (int i = 0; i < size; i++) {
+            System.out.println(array[i]);    //*/
+
+        }
+//Part 2.2 Random values
+///*
+
+        Random random = new Random();
+        int[] array2 = new int[5];
+        int size2 = array2.length;
+        for (int a = 0; a < size2; a++) {
+            array2[a] = random.nextInt(5);
+        }
+        for (int a = 0; a < size2; a++) {
+            System.out.println(array2[a]);
+
+
+        }  // */
+
+
+///*//Part 2.4  Sum of array elements
+        int size3;
+        int sum = 0;
+        Scanner hmmm = new Scanner(System.in);
+        System.out.print("Input the size of the array: ");
+        size3 = nm.nextInt();
+        int[] array3 = new int[10];
+        System.out.println("Input the values: ");
+        for (int i2 = 0; i2 < size3; i2++) {
+            array3[i2] = nm.nextInt();
+            sum += array3[i2];
+        }
+        System.out.println("The array is: ");
+        for (int i2 = 0; i2 < size3; i2++)
+            System.out.println(sum);
+
+        }
+
+        }//*/
+
+
+
