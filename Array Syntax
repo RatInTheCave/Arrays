@@ -1,0 +1,41 @@
+//Part 1. Syntax
+//Part 1.1 Demonstration
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        //Array with predefined size
+        double[] e1 = new double[5];
+        //Array with size variable
+        int size = 5;
+        int[] e2 = new int[size];
+        //Literal array
+        byte[] e3 = {1, 2, 3};
+
+//Part 1.2 Set and access array elements by index
+        //value of array element
+        int e4 = 36;
+        //print element value
+        System.out.println("e4 = " + e4);
+
+//Part 1.3 Iterate over array (array traversal)
+
+
+        //For loop 
+        int[] e5 = { 1, 2, 3};
+        for
+        (int e6 = 0; e6 < e5.length; e6++)
+        {
+            System.out.println(  e5[e6] );
+        }
+       //While loop
+        int e8[] = {5, 4, 3, 2, 1};
+        int x1 = e8.length;
+        int x2 = 0;
+        while (x1 < x2) {
+            System.out.println(e8[x1]);
+            x1 = x1 + 1;
+        }
+
+    }
+}
